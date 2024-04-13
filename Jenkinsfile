@@ -9,12 +9,6 @@ pipeline {
                 
             }
         }
-        stage('test') {
-            steps {
-                echo "Testing"
-                sh 'echo using shell within Testing is done'
-                
-            }
-        }
+       
     }
 }
